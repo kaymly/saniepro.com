@@ -1,4 +1,4 @@
-name: HornDaily-CI
+name: SaniePro-CI
 on:
   push:
     branches:
@@ -22,20 +22,11 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14.x
+          node-version: 18.x
           check-latest: true
 
       # Runs a single command using the runners shell
       #- name: Run a one-line script
-      - name: npm version
-        run: npm --version
-
-      - name: Build Theme
-        run: |
-          cd wp-content/themes/horndaily
-          rm -rf node_modules && rm package-lock.json
-          npm install
-          npm run production
       
       #run: cd wp-content/themes/horndaily && npm install && npm run production
 
@@ -43,7 +34,7 @@ jobs:
       - name: excluded directories and files
         run: cat deploy/rsync-excludes.txt
 
-      - name: Deploying horndaily theme and plugins
+      - name: Deploying saniepro theme and plugins
         uses: burnett01/rsync-deployments@4.1
         with:
             switches: -vrxc --delete --exclude-from="./deploy/rsync-excludes.txt"
