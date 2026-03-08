@@ -1,0 +1,58 @@
+
+---Downloaded files---
+The import files for: Import Demo Data were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://janelaswp.themesflat.co
+Data file = /home/admin/domains/themesflat.co/public_html/janelaswp/wp-content/uploads/2022/12/demo-content-import-file_2022-12-29__01-33-55.xml
+Widget file = /home/admin/domains/themesflat.co/public_html/janelaswp/wp-content/uploads/2022/12/demo-widgets-import-file_2022-12-29__01-33-55.json
+Customizer file = /home/admin/domains/themesflat.co/public_html/janelaswp/wp-content/uploads/2022/12/demo-customizer-import-file_2022-12-29__01-33-55.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+---Importing widgets---
+Sidebar Blog : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Themesflat - Recent News - Recent News - Imported
+Block - No Title - Imported
+
+Footer Widget Area 1 : 
+
+Block - No Title - Imported
+
+Footer Widget Area 2 : 
+
+Block - No Title - Imported
+
+Footer Widget Area 3 : 
+
+Navigation Menu - Useful Links - Imported
+
+Footer Widget Area 4 : 
+
+Block - No Title - Imported
+
+Sidebar Shop : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Products list - Popular Products - Imported
+Product Tag Cloud - Populer Tag - Imported
+
+Services Sidebar : 
+
+Themesflat - Services Categories - Popular Service - Imported
+Block - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

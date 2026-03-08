@@ -1,0 +1,26 @@
+
+---Downloaded files---
+The import files for: Import Demo Data were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://janelaswp.themesflat.co
+Data file = /home/admin/domains/themesflat.co/public_html/janelaswp/wp-content/uploads/2022/12/demo-content-import-file_2022-12-28__10-08-00.xml
+Widget file = /home/admin/domains/themesflat.co/public_html/janelaswp/wp-content/uploads/2022/12/demo-widgets-import-file_2022-12-28__10-08-00.json
+Customizer file = /home/admin/domains/themesflat.co/public_html/janelaswp/wp-content/uploads/2022/12/demo-customizer-import-file_2022-12-28__10-08-00.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+

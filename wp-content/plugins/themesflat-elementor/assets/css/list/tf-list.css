@@ -1,0 +1,10 @@
+.tf-list .item-list {
+	display: flex;
+	align-items: center;
+}
+
+.tf-list .item-list .before-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

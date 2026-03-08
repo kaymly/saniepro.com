@@ -1,0 +1,89 @@
+.tf-pricetable,
+.tf-pricetable .header-price,
+.tf-pricetable .price,
+.tf-pricetable .title,
+.tf-pricetable .number-order,
+.tf-pricetable.style2 .icon,
+.tf-pricetable .wrap-icon svg,
+.tf-pricetable .wrap-icon i,
+.tf-pricetable .text,
+.tf-pricetable .time {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.tf-pricetable {
+    position: relative;
+    box-shadow: 0px 2px 30px rgb(0 0 0 / 8%);
+    padding: 70px 0px;
+}
+.tf-pricetable .header-price {
+    position: relative;
+    overflow: hidden;
+}
+.tf-pricetable .number-order {
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(255,255,255,0.24);
+    white-space: nowrap;
+    position: absolute;
+    right: 26px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+.tf-pricetable .price {
+    margin-right: 8px;
+}
+.tf-pricetable .wrap-button a {
+    display: inline-block;
+}
+/* Style 2 */
+.tf-pricetable.style2 .header-price {
+    overflow: visible;
+}
+.tf-pricetable.style2 .header-price .badge {
+    position: absolute;
+    top: -14px;
+    right: 17px;
+    display: inline-block;
+    border-radius: 0;
+    padding: 8px 15px 4px 15px;
+}
+.tf-pricetable.style2 .header-price {
+    text-align: center;
+}
+.tf-pricetable.style2 .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.tf-pricetable.style2 .content-price {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 4px;
+    
+}
+.tf-pricetable.style2 .price {
+    margin: 0;
+}
+.tf-pricetable.style2 .wrap-button a {
+    display: inline-flex;
+    align-items: center;
+}
+.tf-pricetable.style2 .wrap-button a i {
+    margin-left: 10px;
+}
+.tf-pricetable .wrap-button a:hover i {
+    -webkit-animation: toRightFromLeft 0.3s forwards;
+    -moz-animation: toRightFromLeft 0.3s forwards;
+    animation: toRightFromLeft 0.3s forwards;
+}

@@ -1,0 +1,59 @@
+.tf-services-wrap .category-services-post .content {
+    padding: 43px 20px 33px 20px;
+    text-align: center;
+}
+.tf-services-wrap .category-services-post .content .category {
+    margin: 11px 0px 0px 0px;
+}
+.tf-services-wrap.style2 .category-services-post .content .category {
+    margin: 12px 0px 0px 0px;
+}
+.tf-services-wrap .category-services-post .content .post-icon i {
+    font-size: 63px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+.tf-services-wrap .category-services-post .content .post-icon {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; 
+}
+.tf-services-wrap .category-services-post:hover .content .post-icon {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.tf-services-wrap.style2 .category-services-post .content {
+    padding: 63px 20px 57px 20px;
+    margin-bottom: 30px;
+}
+.tf-services-wrap.style1 .wrap-services-post.category .item:nth-child(1) {
+    border-right: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+}
+.tf-services-wrap.style1 .wrap-services-post.category .item:nth-child(2) {
+    border-right: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+}
+.tf-services-wrap.style1 .wrap-services-post.category .item:nth-child(3) {
+    border-bottom: 1px solid #CBCBCB;
+}
+.tf-services-wrap.style1 .wrap-services-post.category .item:nth-child(4) {
+    border-right: 1px solid #CBCBCB;
+}
+.tf-services-wrap.style1 .wrap-services-post.category .item:nth-child(5) {
+    border-right: 1px solid #CBCBCB;
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {	
+
+    .tf-services-wrap.style1 .wrap-services-post.category .item:not(:last-child){
+        border-right: unset;
+        border-bottom: 1px solid #CBCBCB;
+    }
+}

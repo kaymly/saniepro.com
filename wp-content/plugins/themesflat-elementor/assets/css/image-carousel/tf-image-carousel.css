@@ -1,0 +1,86 @@
+/* style */
+.tf-image-carousel .item-image-carousel .image-item {
+    display: flex;
+    justify-content: center;
+}
+.tf-image-carousel .item-image-carousel .image-item img {
+    object-fit: cover;
+}
+
+
+/*carousel optiont*/
+.tf-image-carousel .owl-nav .owl-prev,
+.tf-image-carousel .owl-nav .owl-next {
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.tf-image-carousel .owl-nav .owl-next {
+    left: unset;
+    right: 0;
+}
+
+.tf-image-carousel .owl-nav .owl-prev:before, 
+.tf-image-carousel .owl-nav .owl-next:before,
+.tf-image-carousel .owl-dots .owl-dot:before {
+    display: none;
+}
+
+.tf-image-carousel.no-arrow .owl-nav .owl-prev,
+.tf-image-carousel.no-arrow .owl-nav .owl-next {
+    display: none;
+}
+
+.tf-image-carousel.has-arrow .owl-nav .owl-prev,
+.tf-image-carousel.has-arrow .owl-nav .owl-next {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf-image-carousel .owl-dots {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tf-image-carousel .owl-dots .owl-dot {
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    background: #0080f0;
+    display: inline-block;
+    margin: 0 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.tf-image-carousel.has-carousel.no-bullets .owl-dots,
+.tf-image-carousel.no-bullets .owl-dots {
+    display: none;
+}
+
+.tf-image-carousel.has-carousel.has-bullets .owl-dots {
+    display: block;
+}

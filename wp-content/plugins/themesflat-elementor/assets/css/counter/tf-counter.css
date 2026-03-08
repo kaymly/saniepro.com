@@ -1,0 +1,41 @@
+.tf-counter {
+	position: relative;
+}
+
+.tf-counter .wrap-counter {
+	display: flex;
+	align-items: center;
+}
+
+.tf-counter .counter-icon {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tf-counter .counter-number-wrapper .counter-number-inner {
+	display: inline-flex;
+}
+
+.tf-counter.style1:hover:after {
+	width: 100%;
+}
+
+.tf-counter.style2 .wrap-icon-title {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tf-counter .counter-icon i {
+	-webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.tf-counter:hover .counter-icon i {
+	-webkit-transform: rotateY( 180deg);
+    transform: rotateY( 180deg);
+}

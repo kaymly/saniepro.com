@@ -1,0 +1,82 @@
+
+---Downloaded files---
+The import files for: Import Demo Data were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = https://staging-environment.online/glassfinityusa
+Data file = /home/u348900336/domains/staging-environment.online/public_html/glassfinityusa/wp-content/uploads/2023/05/demo-content-import-file_2023-05-01__17-06-19.xml
+Widget file = /home/u348900336/domains/staging-environment.online/public_html/glassfinityusa/wp-content/uploads/2023/05/demo-widgets-import-file_2023-05-01__17-06-19.json
+Customizer file = /home/u348900336/domains/staging-environment.online/public_html/glassfinityusa/wp-content/uploads/2023/05/demo-customizer-import-file_2023-05-01__17-06-19.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar Blog : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Themesflat - Recent News - Recent News - Imported
+Block - No Title - Imported
+
+Footer Widget Area 1 : 
+
+Block - No Title - Imported
+
+Footer Widget Area 2 : 
+
+Block - No Title - Imported
+
+Footer Widget Area 3 : 
+
+Navigation Menu - Useful Links - Imported
+
+Footer Widget Area 4 : 
+
+Block - No Title - Imported
+
+Sidebar Shop : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Products list - Popular Products - Imported
+Product Tag Cloud - Populer Tag - Imported
+
+Services Sidebar : 
+
+Themesflat - Services Categories - Popular Service - Imported
+Block - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
