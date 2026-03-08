@@ -1,0 +1,56 @@
+name: HornDaily-CI
+on:
+  push:
+    branches:
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    environment: production
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    name: Build
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+          check-latest: true
+
+      # Runs a single command using the runners shell
+      #- name: Run a one-line script
+      - name: npm version
+        run: npm --version
+
+      - name: Build Theme
+        run: |
+          cd wp-content/themes/horndaily
+          rm -rf node_modules && rm package-lock.json
+          npm install
+          npm run production
+      
+      #run: cd wp-content/themes/horndaily && npm install && npm run production
+
+      # Runs a set of commands using the runners shell
+      - name: excluded directories and files
+        run: cat deploy/rsync-excludes.txt
+
+      - name: Deploying horndaily theme and plugins
+        uses: burnett01/rsync-deployments@4.1
+        with:
+            switches: -vrxc --delete --exclude-from="./deploy/rsync-excludes.txt"
+            path: wp-content/
+            remote_path: /var/www/html/wp-content/
+            remote_host: ${{ secrets.DEPLOY_HOST }}
+            remote_user: ${{ secrets.DEPLOY_USER }}
+            remote_key: ${{ secrets.DEPLOY_KEY }}
+
+#rsync  --delay-updates --rsh=ssh -e "ssh -i deploy-scripts/id_rsa" --exclude-from="deploy-scripts/rsync-excludes.txt" -vrxc ./ client_deploybot-hub@wamuinteractive.vps.pagelyhosting.com:sites/$1/wp-content/themes/wamu/

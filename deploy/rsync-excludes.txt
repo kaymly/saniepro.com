@@ -1,0 +1,10 @@
+*.gitignore
+*.gitmodules
+*.git
+*.gitkeep
+*.github
+deploy-scripts
+
+/node_modules
+/resources
+/uploads
