@@ -7,4 +7,3 @@ deploy-scripts
 
 /node_modules
 /resources
-/uploads
